@@ -28,6 +28,9 @@
   - server
   - Database
 
+- `sonar scanner` which is the `Working Horse` for the `sonarqube` which do the `actual analysis of the code snippet`
+
+
 - `sonarqube` have a `builtin db` which can be used for the `test purpose` otherwise we can also integrate `DBs` such as 
 
   - postgres db
@@ -35,7 +38,7 @@
   - MS SQL
   - oracle
 
-- it can store various info such as 
+- it can store various info such as below related to the `sonar instance`
   
   - quality snapshots
   - views
@@ -72,8 +75,17 @@
 
   - for the `developer` or `manager` provide `quality snapshots`
 
+  - there were multiple builtin plugins for `sonalqube web server`
+
+    - Language Analysis
+    - SCM (Source code Management)
+    - Authentication and Authorization Integration
+    - Governance and External Quality tool integration or Integration with reporting Tools as well
+    - custom plugins as per enterprize requirements
+    - we can add additional language , rules and gateeway as well to the ewebserver using the plugins
+  
 
 
-- 
+  - 
 
 
